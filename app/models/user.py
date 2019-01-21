@@ -2,7 +2,7 @@ users = []
 
 
 class User:
-    """class Users"""
+    """class User"""
 
     def __init__(self, username, password, role):
         self.username = username
@@ -10,18 +10,17 @@ class User:
         self.role = role
 
     def user_to_dict(self):
-        """class Users"""
+        """returns user as dictionary"""
 
-        return{
+        user={
             "username": self.username,
             "password": self.password,
             "role": self.role
         }
-
-    def save_users(self, user):
-        users.append(user)
-
+        return users.append(user)
+  
     def user_login(self, username, password):
+        """method for user login"""
         for user in users:
             if user["username"] == username and user["password"] == password:
                 return True
