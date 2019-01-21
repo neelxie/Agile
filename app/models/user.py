@@ -1,4 +1,5 @@
-users = []
+import datetime
+ = []
 
 
 class User:
@@ -8,6 +9,8 @@ class User:
         self.username = username
         self.password = password
         self.role = role
+        self.date = datetime.datetime.now()
+        
 
     def user_to_dict(self):
         """returns user as dictionary"""
@@ -15,7 +18,8 @@ class User:
         user={
             "username": self.username,
             "password": self.password,
-            "role": self.role
+            "role": self.role,
+            "date":datetime.datetime.now()
         }
         return users.append(user)
   
