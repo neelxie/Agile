@@ -2,7 +2,7 @@
 Agile Group Project
 This is a commandline app where users can create account by signing up. Users can also create comments when logged into their accounts.
 
-## Gettng started
+## Getting started
 *  Clone [this](https://github.com/neelxie/Agile) git repo to local directory.
 ``` cd agile ```
 *  Create a virtual environment:
@@ -27,7 +27,7 @@ This is the [link](https://www.pivotaltracker.com/n/projects/2239687) to our piv
 ## Contributors
 | Name | Role | Contribution
 |------|------|-------------------
-| Derrick Sekidde | Product Owner | Create Pivotal Tracker Stories and Readme file
+| Derrick Sekidde | Product Owner | Created Pivotal Tracker Stories, tools intergration and Readme file
 | Edna Nakajugo | Scrum Master | Implemented the fundamental users' model.
 | Kisekka David | Senior Developer | Implemented the commandline interface for the app.
 | Alex Sanya | Senior Developer | Implemented the comments model and functionality.
